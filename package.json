@@ -1,10 +1,10 @@
 {
-  "name": "install-fonts",
+  "name": "action-install-fonts",
   "version": "1.0.5",
   "description": "Action for nexrender to install fonts used in template",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "node sandbox.js"
   },
   "keywords": [
     "nexrender",
@@ -20,5 +20,18 @@
   "license": "ISC",
   "dependencies": {
     "child_process": "^1.0.2"
+  },
+  "os": [
+    "win32"
+  ],
+  "bugs": {
+    "url": "https://github.com/spiring-co/action-install-fonts/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spiring-co/action-install-fonts",
+    "contributors": [
+      "Harsh Bhatia <harshb.work@gmail.com> (https://github.com/HarshBhatia)"
+    ]
   }
 }
